@@ -1,0 +1,22 @@
+body {
+	background-color: darkgrey;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	color: rgb(30, 0, 255);
+}
+
+h1 {
+	font-size: 36px;
+}
+
+/* Seleccionar por clase */
+.hola {
+	color: blueviolet;
+}
+
+/* Seleccionar por ID */
+#chao {
+	color: aquamarine;
+}
