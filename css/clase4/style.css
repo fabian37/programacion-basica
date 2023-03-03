@@ -1,0 +1,58 @@
+/* Selector universal */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Selector de tipo |||| Selector por elemento */
+h1 {
+	background-color: blanchedalmond;
+}
+
+/* Selector de clase */
+.caja {
+	background-color: aquamarine;
+	margin: 10px;
+}
+
+.caja1 {
+	color: blueviolet;
+}
+
+.caja2 {
+	color: azure;
+}
+
+/* Selector por ID */
+#btn {
+	background-color: lightpink;
+}
+
+/* Selector por atributo */
+a[href="https://www.google.com/"]
+{
+	color: red;
+}
+
+/* Selectores combinadores */
+img {
+  width: 50px;
+  height: auto;
+}
+
+div img {
+  width: 100px;
+  height: auto;
+}
+
+/* Pseudoclases */
+h1:hover {
+	background-color: red;
+}
+
+/* Pseudoelemento */
+h1::before {
+  content: '👱🏿‍♀️' ;
+}
