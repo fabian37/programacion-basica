@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+	font-size: 30px;
+}
+
+body {
+	background-color: lightskyblue;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1rem;
+}
+
+.contenedor {
+	background-color: blanchedalmond;
+  width: 800px;
+  height: 800px;
+  font-size: 10px;
+}
+
+.hijo1 {
+  background-color: aquamarine;
+  width: 100%;
+  height: 50%;
+  font-size: 10em;
+}
+
+.hijo2 {
+  background-color: blueviolet;
+  width: 50%;
+  height: 50%;
+  font-size: 5em;
+}
+
+.contenedor2 {
+  background-color: coral;
+  font-size: 2rem;
+  width: 100vw;
+  height: 100vh;
+}
